@@ -13,7 +13,7 @@ export default function Home() {
     const timer = setTimeout(() => {
       setScrollImage(NewImage);
       setDisplayText("In publishing and graphic design, Lorem.");
-    }, 3400);
+    }, 3420);
 
     return () => {
       clearTimeout(timer);
@@ -30,7 +30,7 @@ export default function Home() {
       <div className="h-screen w-screen flex flex-col-reverse md:flex-row">
         <div className="flex basis-1/2 h-screen md:h-max-[60%] lg:h-max-[100%] align-middle justify-center my-auto relative">
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-            <div className="text-black font-bold z-20 text-lg justify-center text-center max-w-[50%] md:max-w-[36%] lg:max-w-[24%]">
+            <div className="text-black font-bold z-20 text-xl justify-center text-center max-w-[50%] md:max-w-[36%] lg:max-w-[24%]">
               <Typewriter
                 options={{
                   strings: [displayText],
